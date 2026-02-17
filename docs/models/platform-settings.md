@@ -1,0 +1,25 @@
+# PlatformSettings
+
+Platform-wide configuration settings for file uploads and feature toggles
+
+## Example Usage
+
+```typescript
+import { PlatformSettings } from "pipeshub/models";
+
+let value: PlatformSettings = {
+  fileUploadMaxSizeBytes: 31457280,
+  featureFlags: {
+    "ENABLE_BETA_CONNECTORS": false,
+  },
+  updatedAt: new Date("2024-01-15T10:30:00Z"),
+};
+```
+
+## Fields
+
+| Field                                                                                                                                                                           | Type                                                                                                                                                                            | Required                                                                                                                                                                        | Description                                                                                                                                                                     | Example                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fileUploadMaxSizeBytes`                                                                                                                                                        | *number*                                                                                                                                                                        | :heavy_check_mark:                                                                                                                                                              | Maximum file upload size in bytes. Default is 30MB (31457280 bytes). Maximum allowed is 1GB.                                                                                    | 31457280                                                                                                                                                                        |
+| `featureFlags`                                                                                                                                                                  | Record<string, *boolean*>                                                                                                                                                       | :heavy_check_mark:                                                                                                                                                              | Key-value map of feature flags to enable/disable platform features.<br/>Available flags:<br/>- ENABLE_BETA_CONNECTORS: Allow usage of beta connector integrations that may be unstable<br/> | {<br/>"ENABLE_BETA_CONNECTORS": false<br/>}                                                                                                                                     |
+| `updatedAt`                                                                                                                                                                     | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)                                                                                   | :heavy_minus_sign:                                                                                                                                                              | Timestamp of last settings update (read-only, set automatically)                                                                                                                | 2024-01-15T10:30:00Z                                                                                                                                                            |

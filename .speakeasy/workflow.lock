@@ -1,0 +1,39 @@
+speakeasyVersion: 1.718.0
+sources:
+    PipesHub API:
+        sourceNamespace: pipes-hub-api
+        sourceRevisionDigest: sha256:3df10ba25de2049c39f8bc71fea4555153bc5549abaa690ff785c5bad1e23825
+        sourceBlobDigest: sha256:6e23e13d83743ebe7bbebb6c548b3ccf9f34cf538adde4e5b0ce7ed89998ffe8
+        tags:
+            - latest
+            - 1.0.0
+targets:
+    pipeshub:
+        source: PipesHub API
+        sourceNamespace: pipes-hub-api
+        sourceRevisionDigest: sha256:3df10ba25de2049c39f8bc71fea4555153bc5549abaa690ff785c5bad1e23825
+        sourceBlobDigest: sha256:6e23e13d83743ebe7bbebb6c548b3ccf9f34cf538adde4e5b0ce7ed89998ffe8
+        codeSamplesNamespace: pipes-hub-api-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:63a8eeffd4222a51d42ca46dccdf17bf6e721b31816ba49e7cdd09c5b9664493
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        PipesHub API:
+            inputs:
+                - location: /Users/anshika/work/PipesHub/pipeshub-sdk-typescript/pipeshub-openapi.yaml
+            overlays:
+                - location: .speakeasy/speakeasy-modifications-overlay.yaml
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/pipeshub/test/pipes-hub-api
+    targets:
+        pipeshub:
+            target: typescript
+            source: PipesHub API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/pipeshub/test/pipes-hub-api-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false
