@@ -1,0 +1,17 @@
+# DeleteConversationByIdRequest
+
+## Example Usage
+
+```typescript
+import { DeleteConversationByIdRequest } from "pipeshub/models/operations";
+
+let value: DeleteConversationByIdRequest = {
+  conversationId: "<value>",
+};
+```
+
+## Fields
+
+| Field                          | Type                           | Required                       | Description                    |
+| ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
+| `conversationId`               | *string*                       | :heavy_check_mark:             | Unique conversation identifier |
