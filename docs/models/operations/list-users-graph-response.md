@@ -5,7 +5,7 @@ Paginated list of users
 ## Example Usage
 
 ```typescript
-import { ListUsersGraphResponse } from "pipeshub/models/operations";
+import { ListUsersGraphResponse } from "@pipeshub/sdk/models/operations";
 
 let value: ListUsersGraphResponse = {
   success: true,

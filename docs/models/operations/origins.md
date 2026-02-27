@@ -5,7 +5,7 @@ Filter by origin (comma-separated)
 ## Example Usage
 
 ```typescript
-import { Origins } from "pipeshub/models/operations";
+import { Origins } from "@pipeshub/sdk/models/operations";
 
 let value: Origins = "CONNECTOR";
 ```

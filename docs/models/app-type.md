@@ -5,7 +5,7 @@ Supported application/connector types
 ## Example Usage
 
 ```typescript
-import { AppType } from "pipeshub/models";
+import { AppType } from "@pipeshub/sdk/models";
 
 let value: AppType = "jira";
 ```

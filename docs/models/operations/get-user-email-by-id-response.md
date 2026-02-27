@@ -5,7 +5,7 @@ User email retrieved successfully
 ## Example Usage
 
 ```typescript
-import { GetUserEmailByIdResponse } from "pipeshub/models/operations";
+import { GetUserEmailByIdResponse } from "@pipeshub/sdk/models/operations";
 
 let value: GetUserEmailByIdResponse = {
   success: true,

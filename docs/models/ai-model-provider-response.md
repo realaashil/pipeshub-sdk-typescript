@@ -5,7 +5,7 @@ Response containing AI model provider details
 ## Example Usage
 
 ```typescript
-import { AIModelProviderResponse } from "pipeshub/models";
+import { AIModelProviderResponse } from "@pipeshub/sdk/models";
 
 let value: AIModelProviderResponse = {};
 ```

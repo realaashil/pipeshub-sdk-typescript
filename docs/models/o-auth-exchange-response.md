@@ -5,7 +5,7 @@ OAuth token response
 ## Example Usage
 
 ```typescript
-import { OAuthExchangeResponse } from "pipeshub/models";
+import { OAuthExchangeResponse } from "@pipeshub/sdk/models";
 
 let value: OAuthExchangeResponse = {
   tokenType: "Bearer",

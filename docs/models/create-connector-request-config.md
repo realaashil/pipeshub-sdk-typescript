@@ -5,7 +5,7 @@ Initial configuration (can also be set after creation)
 ## Example Usage
 
 ```typescript
-import { CreateConnectorRequestConfig } from "pipeshub/models";
+import { CreateConnectorRequestConfig } from "@pipeshub/sdk/models";
 
 let value: CreateConnectorRequestConfig = {
   auth: {

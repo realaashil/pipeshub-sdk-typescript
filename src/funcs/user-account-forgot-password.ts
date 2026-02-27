@@ -100,7 +100,7 @@ async function $do(
     options: client._options,
     baseURL: options?.serverURL ?? client._baseURL ?? "",
     operationID: "forgotPassword",
-    oAuth2Scopes: null,
+    oAuth2Scopes: [],
 
     resolvedSecurity: null,
 

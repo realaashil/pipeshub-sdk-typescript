@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetFolderContentsSortOrder } from "pipeshub/models/operations";
+import { GetFolderContentsSortOrder } from "@pipeshub/sdk/models/operations";
 
 let value: GetFolderContentsSortOrder = "asc";
 ```

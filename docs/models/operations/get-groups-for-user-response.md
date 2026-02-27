@@ -5,7 +5,7 @@ User's groups retrieved successfully
 ## Example Usage
 
 ```typescript
-import { GetGroupsForUserResponse } from "pipeshub/models/operations";
+import { GetGroupsForUserResponse } from "@pipeshub/sdk/models/operations";
 
 let value: GetGroupsForUserResponse = {
   success: true,

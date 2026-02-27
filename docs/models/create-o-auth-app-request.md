@@ -5,7 +5,7 @@ Request to create a new OAuth app
 ## Example Usage
 
 ```typescript
-import { CreateOAuthAppRequest } from "pipeshub/models";
+import { CreateOAuthAppRequest } from "@pipeshub/sdk/models";
 
 let value: CreateOAuthAppRequest = {
   name: "My Integration App",

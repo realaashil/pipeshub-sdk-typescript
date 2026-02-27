@@ -5,7 +5,7 @@ Job status retrieved successfully
 ## Example Usage
 
 ```typescript
-import { GetCrawlingJobStatusResponse } from "pipeshub/models/operations";
+import { GetCrawlingJobStatusResponse } from "@pipeshub/sdk/models/operations";
 
 let value: GetCrawlingJobStatusResponse = {
   success: true,

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { ListKnowledgeBasesRequest } from "pipeshub/models/operations";
+import { ListKnowledgeBasesRequest } from "@pipeshub/sdk/models/operations";
 
 let value: ListKnowledgeBasesRequest = {
   permissions: "OWNER,ORGANIZER,WRITER",

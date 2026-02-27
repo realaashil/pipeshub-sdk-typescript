@@ -5,7 +5,7 @@ Request payload
 ## Example Usage
 
 ```typescript
-import { CreateKBPermissionRequestBody } from "pipeshub/models/operations";
+import { CreateKBPermissionRequestBody } from "@pipeshub/sdk/models/operations";
 
 let value: CreateKBPermissionRequestBody = {
   role: "WRITER",

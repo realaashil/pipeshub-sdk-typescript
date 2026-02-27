@@ -5,7 +5,7 @@ Request to update authentication config (clears OAuth tokens, requires re-auth)
 ## Example Usage
 
 ```typescript
-import { UpdateConnectorAuthRequest } from "pipeshub/models";
+import { UpdateConnectorAuthRequest } from "@pipeshub/sdk/models";
 
 let value: UpdateConnectorAuthRequest = {
   auth: {

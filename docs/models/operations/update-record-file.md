@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { UpdateRecordFile } from "pipeshub/models/operations";
+import { UpdateRecordFile } from "@pipeshub/sdk/models/operations";
 
 // No examples available for this model
 ```

@@ -5,7 +5,7 @@ Connector registry retrieved
 ## Example Usage
 
 ```typescript
-import { GetConnectorRegistryResponse } from "pipeshub/models/operations";
+import { GetConnectorRegistryResponse } from "@pipeshub/sdk/models/operations";
 
 let value: GetConnectorRegistryResponse = {
   connectors: [

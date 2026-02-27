@@ -5,7 +5,7 @@ Metrics collection toggled successfully
 ## Example Usage
 
 ```typescript
-import { ToggleMetricsCollectionResponse } from "pipeshub/models/operations";
+import { ToggleMetricsCollectionResponse } from "@pipeshub/sdk/models/operations";
 
 let value: ToggleMetricsCollectionResponse = {
   message: "Metrics collection toggled successfully",

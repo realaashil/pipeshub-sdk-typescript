@@ -5,7 +5,7 @@ Authentication configuration for a connector instance
 ## Example Usage
 
 ```typescript
-import { ConnectorAuthConfig } from "pipeshub/models";
+import { ConnectorAuthConfig } from "@pipeshub/sdk/models";
 
 let value: ConnectorAuthConfig = {
   values: {

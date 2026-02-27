@@ -5,7 +5,7 @@ Configuration for scheduled sync strategy
 ## Example Usage
 
 ```typescript
-import { ScheduledConfig } from "pipeshub/models";
+import { ScheduledConfig } from "@pipeshub/sdk/models";
 
 let value: ScheduledConfig = {
   cronExpression: "0 */6 * * *",

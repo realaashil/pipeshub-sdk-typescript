@@ -5,7 +5,7 @@ Users added to group successfully
 ## Example Usage
 
 ```typescript
-import { AddUsersToGroupResponse } from "pipeshub/models/operations";
+import { AddUsersToGroupResponse } from "@pipeshub/sdk/models/operations";
 
 let value: AddUsersToGroupResponse = {
   success: true,

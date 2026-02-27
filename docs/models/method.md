@@ -5,7 +5,7 @@ Authentication method to use
 ## Example Usage
 
 ```typescript
-import { Method } from "pipeshub/models";
+import { Method } from "@pipeshub/sdk/models";
 
 let value: Method = "password";
 ```

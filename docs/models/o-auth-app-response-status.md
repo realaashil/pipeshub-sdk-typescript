@@ -5,7 +5,7 @@ App status
 ## Example Usage
 
 ```typescript
-import { OAuthAppResponseStatus } from "pipeshub/models";
+import { OAuthAppResponseStatus } from "@pipeshub/sdk/models";
 
 let value: OAuthAppResponseStatus = "revoked";
 ```

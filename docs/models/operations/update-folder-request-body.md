@@ -5,7 +5,7 @@ Request payload
 ## Example Usage
 
 ```typescript
-import { UpdateFolderRequestBody } from "pipeshub/models/operations";
+import { UpdateFolderRequestBody } from "@pipeshub/sdk/models/operations";
 
 let value: UpdateFolderRequestBody = {
   folderName: "<value>",

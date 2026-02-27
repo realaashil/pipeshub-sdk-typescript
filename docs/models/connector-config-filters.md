@@ -5,7 +5,7 @@ Filter selections for data scope
 ## Example Usage
 
 ```typescript
-import { ConnectorConfigFilters } from "pipeshub/models";
+import { ConnectorConfigFilters } from "@pipeshub/sdk/models";
 
 let value: ConnectorConfigFilters = {};
 ```

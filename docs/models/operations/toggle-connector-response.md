@@ -5,7 +5,7 @@ Connector toggled
 ## Example Usage
 
 ```typescript
-import { ToggleConnectorResponse } from "pipeshub/models/operations";
+import { ToggleConnectorResponse } from "@pipeshub/sdk/models/operations";
 
 let value: ToggleConnectorResponse = {
   message: "Sync enabled successfully",

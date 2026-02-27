@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { DeleteConnectorInstanceRequest } from "pipeshub/models/operations";
+import { DeleteConnectorInstanceRequest } from "@pipeshub/sdk/models/operations";
 
 let value: DeleteConnectorInstanceRequest = {
   connectorId: "<id>",

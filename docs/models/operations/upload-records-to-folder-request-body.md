@@ -5,8 +5,8 @@ Request payload
 ## Example Usage
 
 ```typescript
+import { UploadRecordsToFolderRequestBody } from "@pipeshub/sdk/models/operations";
 import { openAsBlob } from "node:fs";
-import { UploadRecordsToFolderRequestBody } from "pipeshub/models/operations";
 
 let value: UploadRecordsToFolderRequestBody = {
   files: [

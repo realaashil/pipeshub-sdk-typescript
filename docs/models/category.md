@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Category } from "pipeshub/models";
+import { Category } from "@pipeshub/sdk/models";
 
 let value: Category = "formatting_issues";
 ```

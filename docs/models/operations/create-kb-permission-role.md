@@ -5,7 +5,7 @@ Permission role to grant
 ## Example Usage
 
 ```typescript
-import { CreateKBPermissionRole } from "pipeshub/models/operations";
+import { CreateKBPermissionRole } from "@pipeshub/sdk/models/operations";
 
 let value: CreateKBPermissionRole = "WRITER";
 ```

@@ -5,7 +5,7 @@ Currently applied filters
 ## Example Usage
 
 ```typescript
-import { Applied } from "pipeshub/models";
+import { Applied } from "@pipeshub/sdk/models";
 
 let value: Applied = {};
 ```

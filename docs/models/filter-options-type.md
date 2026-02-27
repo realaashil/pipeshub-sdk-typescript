@@ -5,7 +5,7 @@ Filter input type
 ## Example Usage
 
 ```typescript
-import { FilterOptionsType } from "pipeshub/models";
+import { FilterOptionsType } from "@pipeshub/sdk/models";
 
 let value: FilterOptionsType = "select";
 ```

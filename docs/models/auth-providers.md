@@ -5,7 +5,7 @@ Configuration for external authentication providers (returned when those methods
 ## Example Usage
 
 ```typescript
-import { AuthProviders } from "pipeshub/models";
+import { AuthProviders } from "@pipeshub/sdk/models";
 
 let value: AuthProviders = {};
 ```

@@ -5,7 +5,7 @@ Request payload
 ## Example Usage
 
 ```typescript
-import { CreateOrganizationRequest } from "pipeshub/models/operations";
+import { CreateOrganizationRequest } from "@pipeshub/sdk/models/operations";
 
 let value: CreateOrganizationRequest = {
   accountType: "business",

@@ -5,7 +5,7 @@ AI model configuration used
 ## Example Usage
 
 ```typescript
-import { ModelInfo } from "pipeshub/models";
+import { ModelInfo } from "@pipeshub/sdk/models";
 
 let value: ModelInfo = {};
 ```

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { RemoveCrawlingJobRequest } from "pipeshub/models/operations";
+import { RemoveCrawlingJobRequest } from "@pipeshub/sdk/models/operations";
 
 let value: RemoveCrawlingJobRequest = {
   connector: "drive",

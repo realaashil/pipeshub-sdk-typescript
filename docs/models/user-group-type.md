@@ -10,7 +10,7 @@ Group type:
 ## Example Usage
 
 ```typescript
-import { UserGroupType } from "pipeshub/models";
+import { UserGroupType } from "@pipeshub/sdk/models";
 
 let value: UserGroupType = "admin";
 ```

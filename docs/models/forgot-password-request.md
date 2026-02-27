@@ -5,7 +5,7 @@ Request to send password reset email
 ## Example Usage
 
 ```typescript
-import { ForgotPasswordRequest } from "pipeshub/models";
+import { ForgotPasswordRequest } from "@pipeshub/sdk/models";
 
 let value: ForgotPasswordRequest = {
   email: "Davion.Moore@gmail.com",

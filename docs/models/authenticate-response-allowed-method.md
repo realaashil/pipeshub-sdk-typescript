@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { AuthenticateResponseAllowedMethod } from "pipeshub/models";
+import { AuthenticateResponseAllowedMethod } from "@pipeshub/sdk/models";
 
 let value: AuthenticateResponseAllowedMethod = "microsoft";
 ```

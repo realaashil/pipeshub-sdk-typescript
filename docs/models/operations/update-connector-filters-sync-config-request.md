@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { UpdateConnectorFiltersSyncConfigRequest } from "pipeshub/models/operations";
+import { UpdateConnectorFiltersSyncConfigRequest } from "@pipeshub/sdk/models/operations";
 
 let value: UpdateConnectorFiltersSyncConfigRequest = {
   connectorId: "<id>",

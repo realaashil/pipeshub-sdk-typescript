@@ -5,7 +5,7 @@ Custom system prompt configuration
 ## Example Usage
 
 ```typescript
-import { CustomSystemPrompt } from "pipeshub/models";
+import { CustomSystemPrompt } from "@pipeshub/sdk/models";
 
 let value: CustomSystemPrompt = {};
 ```

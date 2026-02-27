@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { AIModelProviderConfig } from "pipeshub/models";
+import { AIModelProviderConfig } from "@pipeshub/sdk/models";
 
 let value: AIModelProviderConfig = {
   provider: "<value>",

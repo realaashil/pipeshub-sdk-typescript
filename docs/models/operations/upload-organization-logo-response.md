@@ -5,7 +5,7 @@ Logo uploaded successfully
 ## Example Usage
 
 ```typescript
-import { UploadOrganizationLogoResponse } from "pipeshub/models/operations";
+import { UploadOrganizationLogoResponse } from "@pipeshub/sdk/models/operations";
 
 let value: UploadOrganizationLogoResponse = {
   success: true,

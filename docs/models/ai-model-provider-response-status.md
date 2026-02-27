@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { AIModelProviderResponseStatus } from "pipeshub/models";
+import { AIModelProviderResponseStatus } from "@pipeshub/sdk/models";
 
 let value: AIModelProviderResponseStatus = "success";
 ```

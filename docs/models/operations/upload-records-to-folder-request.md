@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { UploadRecordsToFolderRequest } from "pipeshub/models/operations";
+import { UploadRecordsToFolderRequest } from "@pipeshub/sdk/models/operations";
 
 let value: UploadRecordsToFolderRequest = {
   kbId: "<id>",

@@ -7,7 +7,7 @@ the AI's performance and response quality over time.
 ## Example Usage
 
 ```typescript
-import { MessageFeedback } from "pipeshub/models";
+import { MessageFeedback } from "@pipeshub/sdk/models";
 
 let value: MessageFeedback = {};
 ```

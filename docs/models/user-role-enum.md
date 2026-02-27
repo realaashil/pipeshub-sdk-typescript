@@ -5,7 +5,7 @@ User's role in this knowledge base
 ## Example Usage
 
 ```typescript
-import { UserRoleEnum } from "pipeshub/models";
+import { UserRoleEnum } from "@pipeshub/sdk/models";
 
 let value: UserRoleEnum = "FILEORGANIZER";
 ```

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetConnectorRegistryRequest } from "pipeshub/models/operations";
+import { GetConnectorRegistryRequest } from "@pipeshub/sdk/models/operations";
 
 let value: GetConnectorRegistryRequest = {
   scope: "team",

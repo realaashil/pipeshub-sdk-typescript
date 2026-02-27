@@ -5,7 +5,7 @@ OAuth credentials (admin-only view)
 ## Example Usage
 
 ```typescript
-import { OAuthConfigConfig } from "pipeshub/models";
+import { OAuthConfigConfig } from "@pipeshub/sdk/models";
 
 let value: OAuthConfigConfig = {};
 ```

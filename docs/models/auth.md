@@ -5,7 +5,7 @@ Authentication configuration (sensitive data redacted)
 ## Example Usage
 
 ```typescript
-import { Auth } from "pipeshub/models";
+import { Auth } from "@pipeshub/sdk/models";
 
 let value: Auth = {};
 ```

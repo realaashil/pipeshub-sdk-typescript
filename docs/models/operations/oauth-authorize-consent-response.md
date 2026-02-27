@@ -5,7 +5,7 @@ Consent processed, returns redirect URL with authorization code
 ## Example Usage
 
 ```typescript
-import { OauthAuthorizeConsentResponse } from "pipeshub/models/operations";
+import { OauthAuthorizeConsentResponse } from "@pipeshub/sdk/models/operations";
 
 let value: OauthAuthorizeConsentResponse = {};
 ```

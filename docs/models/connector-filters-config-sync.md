@@ -5,7 +5,7 @@ Sync filter selections
 ## Example Usage
 
 ```typescript
-import { ConnectorFiltersConfigSync } from "pipeshub/models";
+import { ConnectorFiltersConfigSync } from "@pipeshub/sdk/models";
 
 let value: ConnectorFiltersConfigSync = {
   values: {

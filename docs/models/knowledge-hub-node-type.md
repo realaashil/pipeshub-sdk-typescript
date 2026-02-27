@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { KnowledgeHubNodeType } from "pipeshub/models";
+import { KnowledgeHubNodeType } from "@pipeshub/sdk/models";
 
 let value: KnowledgeHubNodeType = "APP";
 ```

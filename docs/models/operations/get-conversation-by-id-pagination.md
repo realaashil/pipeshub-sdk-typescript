@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetConversationByIdPagination } from "pipeshub/models/operations";
+import { GetConversationByIdPagination } from "@pipeshub/sdk/models/operations";
 
 let value: GetConversationByIdPagination = {};
 ```

@@ -7,7 +7,7 @@ OAuth authentication for connectors.
 ## Example Usage
 
 ```typescript
-import { OAuthConfig } from "pipeshub/models";
+import { OAuthConfig } from "@pipeshub/sdk/models";
 
 let value: OAuthConfig = {
   oauthInstanceName: "Production Google OAuth",

@@ -7,7 +7,7 @@ Check if a token is active and get its metadata.
 ## Example Usage
 
 ```typescript
-import { OAuthIntrospectRequest } from "pipeshub/models";
+import { OAuthIntrospectRequest } from "@pipeshub/sdk/models";
 
 let value: OAuthIntrospectRequest = {
   token: "<value>",

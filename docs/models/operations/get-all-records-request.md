@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetAllRecordsRequest } from "pipeshub/models/operations";
+import { GetAllRecordsRequest } from "@pipeshub/sdk/models/operations";
 
 let value: GetAllRecordsRequest = {
   recordTypes: "FILE,WEBPAGE,EMAIL",

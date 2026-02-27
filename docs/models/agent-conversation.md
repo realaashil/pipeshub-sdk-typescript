@@ -7,7 +7,7 @@ but tied to an agent's configuration and capabilities.
 ## Example Usage
 
 ```typescript
-import { AgentConversation } from "pipeshub/models";
+import { AgentConversation } from "@pipeshub/sdk/models";
 
 let value: AgentConversation = {};
 ```

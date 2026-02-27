@@ -5,7 +5,7 @@ Type of AI model
 ## Example Usage
 
 ```typescript
-import { ModelType } from "pipeshub/models";
+import { ModelType } from "@pipeshub/sdk/models";
 
 let value: ModelType = "embedding";
 ```

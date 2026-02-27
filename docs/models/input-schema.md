@@ -5,7 +5,7 @@ JSON Schema for tool inputs
 ## Example Usage
 
 ```typescript
-import { InputSchema } from "pipeshub/models";
+import { InputSchema } from "@pipeshub/sdk/models";
 
 let value: InputSchema = {};
 ```

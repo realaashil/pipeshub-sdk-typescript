@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SetDefaultAIModelRequest } from "pipeshub/models/operations";
+import { SetDefaultAIModelRequest } from "@pipeshub/sdk/models/operations";
 
 let value: SetDefaultAIModelRequest = {
   modelType: "ocr",

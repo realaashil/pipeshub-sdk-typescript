@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { StreamAgentMessageRequest } from "pipeshub/models/operations";
+import { StreamAgentMessageRequest } from "@pipeshub/sdk/models/operations";
 
 let value: StreamAgentMessageRequest = {
   agentKey: "<value>",

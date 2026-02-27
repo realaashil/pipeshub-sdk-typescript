@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Logo } from "pipeshub/models/operations";
+import { Logo } from "@pipeshub/sdk/models/operations";
 
 // No examples available for this model
 ```

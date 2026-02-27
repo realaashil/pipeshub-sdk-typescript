@@ -5,7 +5,7 @@ Request payload
 ## Example Usage
 
 ```typescript
-import { ReindexRecordRequestBody } from "pipeshub/models/operations";
+import { ReindexRecordRequestBody } from "@pipeshub/sdk/models/operations";
 
 let value: ReindexRecordRequestBody = {};
 ```

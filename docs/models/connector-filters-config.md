@@ -5,7 +5,7 @@ Filter configuration to control what data is synced (sync filters and indexing f
 ## Example Usage
 
 ```typescript
-import { ConnectorFiltersConfig } from "pipeshub/models";
+import { ConnectorFiltersConfig } from "@pipeshub/sdk/models";
 
 let value: ConnectorFiltersConfig = {
   sync: {

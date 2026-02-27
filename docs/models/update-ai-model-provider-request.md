@@ -5,7 +5,7 @@ Request to update an existing AI model provider
 ## Example Usage
 
 ```typescript
-import { UpdateAIModelProviderRequest } from "pipeshub/models";
+import { UpdateAIModelProviderRequest } from "@pipeshub/sdk/models";
 
 let value: UpdateAIModelProviderRequest = {
   provider: "<value>",

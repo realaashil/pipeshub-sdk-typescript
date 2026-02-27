@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { ShareAgentRequest } from "pipeshub/models/operations";
+import { ShareAgentRequest } from "@pipeshub/sdk/models/operations";
 
 let value: ShareAgentRequest = {
   agentKey: "<value>",

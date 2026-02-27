@@ -5,7 +5,7 @@ User created successfully
 ## Example Usage
 
 ```typescript
-import { CreateUserResponse } from "pipeshub/models/operations";
+import { CreateUserResponse } from "@pipeshub/sdk/models/operations";
 
 let value: CreateUserResponse = {
   success: true,

@@ -5,7 +5,7 @@ Authentication methods updated successfully
 ## Example Usage
 
 ```typescript
-import { UpdateAuthMethodResponse } from "pipeshub/models/operations";
+import { UpdateAuthMethodResponse } from "@pipeshub/sdk/models/operations";
 
 let value: UpdateAuthMethodResponse = {
   message: "Authentication methods updated",

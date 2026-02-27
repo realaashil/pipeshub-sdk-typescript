@@ -5,7 +5,7 @@ Additional metadata about the source
 ## Example Usage
 
 ```typescript
-import { SearchResultItemMetadata } from "pipeshub/models";
+import { SearchResultItemMetadata } from "@pipeshub/sdk/models";
 
 let value: SearchResultItemMetadata = {};
 ```

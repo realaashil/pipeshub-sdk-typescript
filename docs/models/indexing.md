@@ -5,7 +5,7 @@ Indexing filter selections
 ## Example Usage
 
 ```typescript
-import { Indexing } from "pipeshub/models";
+import { Indexing } from "@pipeshub/sdk/models";
 
 let value: Indexing = {};
 ```

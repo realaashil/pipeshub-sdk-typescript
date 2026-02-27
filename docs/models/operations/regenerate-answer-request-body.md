@@ -5,7 +5,7 @@ Request payload
 ## Example Usage
 
 ```typescript
-import { RegenerateAnswerRequestBody } from "pipeshub/models/operations";
+import { RegenerateAnswerRequestBody } from "@pipeshub/sdk/models/operations";
 
 let value: RegenerateAnswerRequestBody = {};
 ```

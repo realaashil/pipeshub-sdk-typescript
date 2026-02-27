@@ -94,7 +94,7 @@ async function $do(
     options: client._options,
     baseURL: baseURL ?? "",
     operationID: "jwks",
-    oAuth2Scopes: null,
+    oAuth2Scopes: [],
 
     resolvedSecurity: null,
 

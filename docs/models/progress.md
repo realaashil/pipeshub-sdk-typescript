@@ -5,7 +5,7 @@ Detailed progress object
 ## Example Usage
 
 ```typescript
-import { Progress } from "pipeshub/models";
+import { Progress } from "@pipeshub/sdk/models";
 
 let value: Progress = {};
 ```

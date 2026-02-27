@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { UploadUserDisplayPictureFile } from "pipeshub/models/operations";
+import { UploadUserDisplayPictureFile } from "@pipeshub/sdk/models/operations";
 
 // No examples available for this model
 ```

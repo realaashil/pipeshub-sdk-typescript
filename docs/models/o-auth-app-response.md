@@ -5,7 +5,7 @@ OAuth app details (without secret)
 ## Example Usage
 
 ```typescript
-import { OAuthAppResponse } from "pipeshub/models";
+import { OAuthAppResponse } from "@pipeshub/sdk/models";
 
 let value: OAuthAppResponse = {};
 ```

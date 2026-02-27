@@ -8,7 +8,7 @@ Authentication response. Two possible outcomes:
 ## Example Usage
 
 ```typescript
-import { AuthenticateResponse } from "pipeshub/models";
+import { AuthenticateResponse } from "@pipeshub/sdk/models";
 
 let value: AuthenticateResponse = {
   message: "Fully authenticated",
